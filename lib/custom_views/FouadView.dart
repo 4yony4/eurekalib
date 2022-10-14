@@ -12,7 +12,6 @@ class FouaView extends StatelessWidget {
       appBar: AppBar(
         title: Text('Yony View'),
       ),
-
       //backgroundColor: Colors.orangeAccent,
       body: Center(
           child: Image.network(
