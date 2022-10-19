@@ -14,8 +14,8 @@ and the Flutter guide for
 
 Libreria en Flutter para realizar proyectos.
 
-##Reglas de uso
-###Agregacion de classes
+## Reglas de uso
+### Agregación de classes
 Todas las clases deberan ir acompañadas de una estructura de nombre que cumpla con los siguiente:
 "EK" seguido del nombre de la clase con la primera letra mayuscula.
 Ejemplo: 
