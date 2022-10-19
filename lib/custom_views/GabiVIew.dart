@@ -8,8 +8,11 @@ class GabiView extends StatelessWidget{
     return Scaffold(
       appBar: AppBar(
         title: Text("Prueba"),
+        backgroundColor: Colors.red,
       ),
-      body: Column(),
+      body: Column(
+
+      ),
 
     );
   }
