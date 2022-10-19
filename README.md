@@ -11,6 +11,18 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
+
+Libreria en Flutter para realizar proyectos.
+
+##Reglas de uso
+###Agregacion de classes
+Todas las clases deberan ir acompañadas de una estructura de nombre que cumpla con los siguiente:
+"EK" seguido del nombre de la clase con la primera letra mayuscula.
+Ejemplo: 
+```dart
+EKFireBaseAdmin.dart
+```
+
 TODO: Put a short description of the package here that helps potential users
 know whether this package might be useful for them.
 
