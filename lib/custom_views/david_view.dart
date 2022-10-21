@@ -6,12 +6,12 @@ class DavidView extends StatelessWidget{
 
   const DavidView({Key? key}) : super(key:key);
 
-//
+//sf
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('David View'),
+        title: const Text('David View'),
       ),
       //backgroundColor: Colors.orangeAccent,
       body: Center(
