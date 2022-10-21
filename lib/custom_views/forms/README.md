@@ -15,11 +15,10 @@ En el cual tendremos los siquientes atributos:
 
 ##MÉTODOS
 
-    getTEXT()
+    -getTEXT()
     
-    Conexión con la base de datos Firebase
+    -Conexión con la base de datos Firebase
 
-    recogida de datos de la BD para reflejar
-    los en la pestaña del view sin necesidad de tener que introducir nada nosotros
+    -recogida de datos de la BD para reflejar los en la pestaña del view sin necesidad de tener que introducir nada nosotros
 
     
