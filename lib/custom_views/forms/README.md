@@ -11,7 +11,15 @@ En el cual tendremos los siquientes atributos:
     final String Ciudad;
     final int telefono;
     final String correo;
-
+    final Firebasestore db = new Firebasestore();
 
 ##MÉTODOS
 
+    getTEXT()
+    
+    Conexión con la base de datos Firebase
+
+    recogida de datos de la BD para reflejar
+    los en la pestaña del view sin necesidad de tener que introducir nada nosotros
+
+    
