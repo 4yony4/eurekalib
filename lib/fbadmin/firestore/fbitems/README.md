@@ -1,51 +1,57 @@
 # Firebase Firestore Items
-Esta carpeta contendra todas las clases que reflejen las colecciones en la 
-base de datos. 
+Esta carpeta contendra las listas de rooms_chat de nuestra applicacion. 
 
-## Codigo DART
+### Codigo DART
 
 Ejemplo:
 
 ```dart
-Perfil.dart
-class Perfil{
-  final String? name;
-  final String uid;
+class RoomItem extends StatelessWidget {
 
-  Perfil({
-    this.name="",
-    this.uid=""
-  });
+  final String sTitulo;
+  final Function(int index) onShortClick;
+  final int index;
 
-  factory Perfil.fromFirestore(
-    DocumentSnapshot<Map<String, dynamic>> snapshot,
-    SnapshotOptions? options,
-  ) {
-  final data = snapshot.data();
-  return Perfil(
-    name: data?['name'],
-    uid: snapshot.id
+  const RoomItem({Key? key, this.sTitulo="Titulo", required this.onShortClick,
+    required this.index}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return ListTile(
+      title: Text(sTitulo),
+      subtitle: Text('Secondary text'),
+      leading: Icon(Icons.label),
+      onTap: () {
+        onShortClick(index);
+      },
+
     );
+    /*
+    Container(
+                height: 100,
+                color: Colors.amber[colorCodes[index]],
+                child: Center(child: Text('Entry ${entries[index]}')),
+              );
+     */
+
   }
 
-  Map<String, dynamic> toFirestore() {
-    return {
-      if (name != null) "name": name,
-    };
-  }
-  
+
 }
 ```
 
-## Ejemplo FIRESTORE
+### Ejemplo FIRESTORE
 
-La clase de arriba tendra una equivalencia en el Firestore, coleccion de
-Perfiles.
+La clase de arriba tendra una equivalencia a rooms en el Firestore,
 En Firestore (MongoDB) seria:
+
 ```bash
 -/
-  |-Perfiles
-    |-hagejnalirbnwjgf (UID del documento) Documento Perfil
+  |-romms
+    |-G5646456546O (UID del documento) Documento rooms
       |-name:String
-      |-age:Int
+      |-image:String
+      |-members:int
+      
 ```
