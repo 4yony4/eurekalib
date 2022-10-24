@@ -14,10 +14,8 @@ and the Flutter guide for
 
 Libreria en Flutter para realizar proyectos.
 
-
 ## Tabla de contenidos
 * [Firebase Firestore Items](/lib/fbadmin/firestore/fbitems/)
-
 
 ## Reglas de uso
 ### Agregación de classes
