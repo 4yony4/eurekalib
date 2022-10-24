@@ -1,7 +1,11 @@
 #Splashes
+
 En esta carpeta se guardarán distintas vistas Splash.
+Estas vistas se utilizarán como pantalla de bienvenida al usuario.
 
 ##Contenido
+
+Estas son las distintas clases que hay:
 
 ```dart
 //TODO: Add the classes inside the folder with some explanation.
@@ -16,5 +20,5 @@ En esta carpeta se guardarán distintas vistas Splash.
 ##Usage
 
 ```dart
-//TODO: Add examples of usage of the classes.
+//TODO: Add examples of how to use the classes.
 ```
