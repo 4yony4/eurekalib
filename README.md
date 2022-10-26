@@ -54,4 +54,4 @@ TODO: Tell users more about the package: where to find more information, how to
 contribute to the package, how to file issues, what response they can expect
 from the package authors, and more.
 
-[![version](https://img.shields.io/badge/version-0.0.1-yellow.svg)](https://semver.org)
+[![version](https://img.shields.io/badge/version-0.0.1-green.svg)](https://semver.org)
