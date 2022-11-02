@@ -25,4 +25,4 @@ void main() async {
 
 ## CAPTURA DE VISTA PANTALLA DE JUEGO
 
-<img src ="../../assets/ejemploFlame.JPG" alt="Vista ejemplo flame"/>
+<img src ="../../assets/ejemploFlame.png" alt="Vista ejemplo flame"/>
