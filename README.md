@@ -17,6 +17,7 @@ Libreria en Flutter para realizar proyectos.
 ## Tabla de contenidos
 * [Firebase Firestore Items](/lib/fbadmin/firestore/fbitems/)
 
+
 ## Reglas de uso
 ### Agregación de classes
 Todas las clases deberan ir acompañadas de una estructura de nombre que cumpla con los siguiente:
