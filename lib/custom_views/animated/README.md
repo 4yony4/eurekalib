@@ -10,8 +10,6 @@ juego con animaciones.
 Ejemplo:
 
 ```dart
-
-
 void main() async {
   
   final game = Pantallaflame();
@@ -19,10 +17,6 @@ void main() async {
   );
   
 }
-
-
 ```
-
 ## CAPTURA DE VISTA PANTALLA DE JUEGO
-
 <img src ="../../assets/ejemploFlame.png" alt="Vista ejemplo flame"/>
