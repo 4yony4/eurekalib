@@ -14,7 +14,7 @@ class YonyView extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Yony View'),
+        title: const Text('Yony View'),
       ),
       //backgroundColor: Colors.orangeAccent,
       body: Center(
