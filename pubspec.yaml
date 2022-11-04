@@ -4,7 +4,11 @@ version: 0.0.1
 homepage:
 
 environment:
+<<<<<<< HEAD
   sdk: '>=2.18.0 <3.0.0'
+=======
+  sdk: '>=2.18.0<3.0.0'
+>>>>>>> 1f2feaf (commit rafa)
   flutter: ">=1.17.0"
 
 dependencies:
