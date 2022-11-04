@@ -16,6 +16,7 @@ class _BottonBarState extends State<BottonBar> {
     Text(
       'Pestaña Home',
       style: optionStyle,
+
     ),
     Text(
       'Pestaña Business',
@@ -64,4 +65,3 @@ class _BottonBarState extends State<BottonBar> {
     );
   }
 }
-
