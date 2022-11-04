@@ -52,3 +52,8 @@ const like = 'sample';
 TODO: Tell users more about the package: where to find more information, how to
 contribute to the package, how to file issues, what response they can expect
 from the package authors, and more.
+
+##buttons
+
+Objeto buttons, 3 clases de botones que se puede utilizar libremente,
+cada uno cuenta con un estilo propio y editable.
