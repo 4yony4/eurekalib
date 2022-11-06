@@ -1,11 +1,13 @@
-#Splashes
+# Splashes
 
 En esta carpeta se guardarán distintas vistas Splash.
 Estas vistas se utilizarán como pantalla de bienvenida al usuario.
 
-##Contenido
+## Contenido
 
 Estas son las distintas clases que hay:
+
+### AOC_splash
 
 ```dart
 AOC_splash.dart
@@ -41,15 +43,15 @@ class AOC_splash extends StatefulWidget {
 }
 ```
 
-##Preview
+## Preview
 
-###AOC_splash
+### AOC_splash
 
 ![Alt Text](https://firebasestorage.googleapis.com/v0/b/fluterchat-977e2.appspot.com/o/AOC_splash_gif.gif?alt=media&token=00205859-5266-4c23-9d35-2a6c49d45225)
 
-##Usage
+## Usage
 
-###AOC_splash
+### AOC_splash
 
 ```dart
 import 'package:eurekalib/custom_views/splashes/AOC_splash.dart';
