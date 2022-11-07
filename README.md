@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 <!--
 This README describes the package. If you publish this package to pub.dev,
 this README's contents appear on the landing page for your package.
@@ -53,3 +55,7 @@ const like = 'sample';
 TODO: Tell users more about the package: where to find more information, how to
 contribute to the package, how to file issues, what response they can expect
 from the package authors, and more.
+>>>>>>> 2098c2246f87b2a3c2a6b24a066baf9e999f5644
+
+
+Nueva clase botones creada 3 botones para uso libre
