@@ -55,5 +55,5 @@ from the package authors, and more.
 
 ##buttons
 
-Objeto buttons, 3 clases de botones que se puede utilizar libremente,
+Objeto button, 3 clases de botones que se puede utilizar libremente,
 cada uno cuenta con un estilo propio y editable.
