@@ -21,7 +21,8 @@ Dentro de AlertDialog  configuramos las caracteristicas que necesitamos.
 
 ##Usage:
 
-***
+```dart
+
 
 @override
             Widget build(BuildContext context) {
@@ -47,9 +48,7 @@ Dentro de AlertDialog  configuramos las caracteristicas que necesitamos.
                 );
             }
 
-***
-
-
+```
 
 
 ##Additional information: 
