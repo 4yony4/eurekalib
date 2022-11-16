@@ -1,12 +1,9 @@
 
 import 'package:flutter/material.dart';
 
-class YonyView extends StatelessWidget{
+class MariaView extends StatelessWidget{
 
-
-
-  const YonyView({Key? key}) : super(key:key);
-
+  const MariaView({Key? key}) : super(key:key);
 
   @override
   Widget build(BuildContext context) {
