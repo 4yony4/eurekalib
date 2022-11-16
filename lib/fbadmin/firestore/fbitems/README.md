@@ -8,7 +8,7 @@ Ejemplo:
 ```dart
 class RoomItem extends StatelessWidget {
 
-  final String sTitulo;
+  final String sTitulo ;
   final Function(int index) onShortClick;
   final int index;
 
