@@ -1,3 +1,3 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* First version of Eurekamps Lib in Flutter for public use and R&D
