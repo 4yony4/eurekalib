@@ -108,7 +108,7 @@ class _CustomTimerState extends State<CustomTimer> {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Expanded(
+        const Expanded(
             child: Icon(Icons.timer)
         ),
         Expanded(
